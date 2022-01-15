@@ -4,13 +4,17 @@ body{
     margin-right: 7%;
     margin-top: 7%;
 }
+.one{
+    margin-bottom: 6%;
+}
 
 h1{
     font-size: 55px;
 }
 
 
-         /* -------------Artical Start----------- */
+
+         /* -------------Heading Start----------- */
 
 
 .first{
@@ -32,14 +36,9 @@ h1{
     padding: 10px 30px;
 }
 
-        /*--------------Artical End ---------*/
+        /*--------------Heading End ---------*/
 
 
-
-
-.center{
-    text-align: center;
-}
 
 
 
@@ -47,6 +46,15 @@ h1{
          /*---------- Start Products---------- */
 
 
+
+.start{
+ margin-top: 10%;
+}
+
+.center{
+    text-align: center;
+}
+        
 .all-products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -64,12 +72,12 @@ h1{
     
 .fa-star{
     color: rgb(202, 195, 195);
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .fa-star.filled{
     color: orange;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 
@@ -79,7 +87,24 @@ h1{
 
 
 
+                  /* See more start*/
 
+.see-more > a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(31, 31, 207);
+    border-radius: 15px;
+    padding: 3px 7px;
+}
+.see-more{
+    text-align: right;
+}
+                   /* See more end*/
+
+
+
+
+                
            /* Travel With Our Gears start */
 
 
@@ -98,15 +123,24 @@ h1{
 
 
 
+
+
+                  /* Footer Start */
+
+
 footer{
  text-align: center;
  background-color:rgb(0, 0, 0);
  color: white;
+ margin-top: 10%;
  padding: 3%
-
 }
+
 .site > a{
     color: white;
     margin-left: 1%;
     margin-right: 1%
 }      
+
+
+                 /* Footer End */
