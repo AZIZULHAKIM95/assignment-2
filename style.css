@@ -17,6 +17,8 @@ h1{
          /* -------------Heading Start----------- */
 
 
+
+
 .first{
     display: flex;
     background-color: rgb(247, 248, 245) ;
@@ -27,10 +29,14 @@ h1{
     width: 40%;
     padding-left: 10%;
 }
+.second:hover .transform{
+    transform: scale(1.2);
+    transition: 1.5s;
+}
 
 .click{
     text-decoration: none;
-    background-color: rgb(31, 31, 207);
+    background-color: rgb(167, 4, 93);
     color: white;
     border-radius: 15px;
     padding: 10px 30px;
@@ -87,25 +93,25 @@ h1{
 
 
 
-                  /* See more start*/
+          /* ------See more start-------- */
 
 .see-more > a{
     text-decoration: none;
     color: white;
-    background-color: rgb(31, 31, 207);
+    background-color: rgb(167, 4, 93);
     border-radius: 15px;
     padding: 3px 7px;
 }
 .see-more{
     text-align: right;
 }
-                   /* See more end*/
+      /* -------See more end-----------*/
 
 
 
 
                 
-           /* Travel With Our Gears start */
+           /*----- Travel With Our Gears start----- */
 
 
 .image{
@@ -119,13 +125,13 @@ h1{
 }
 
 
-            /* Travel With Our Gears finish */
+            /* -----Travel With Our Gears finish----- */
 
 
 
 
 
-                  /* Footer Start */
+                  /* ------Footer Start------ */
 
 
 footer{
@@ -140,18 +146,20 @@ footer{
     color: white;
     margin-left: 1%;
     margin-right: 1%
-}      
+}  
 
 
-                 /* Footer End */
+                 /*------- Footer End ---------*/
+
+
 
           
 
-                  /* For Mobile Device */
+                  /*----- For Mobile Device -------*/
 
 
  @media only screen and (max-width: 576px) {
-    .Container{
+    .Media{
         width: 100%;
     }
     .first, .all-products{
@@ -164,11 +172,11 @@ footer{
 
 
 
-                      /* For tab */
+               /* -------For tab---------- */
 
 
-  @media only screen and (min-width: 577px){
-    .Container{
+  @media only screen and (min-width: 577px) and (max-width: 765px){
+    .Media{
         width: 100%;
     }
     .first, .all-products{
@@ -180,11 +188,11 @@ footer{
 
 
 
-                /* For  Laptop */
+          /* ----------For  Laptop-------- */
 
 
-  @media  only screen and (min-width: 769px) {
-    .Container{
+  @media  only screen and (min-width: 769px) and (max-width: 1310px) {
+    .Media{
         width: 100%;
     }
     .first, .all-products{
